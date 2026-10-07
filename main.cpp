@@ -7,14 +7,14 @@ using std::endl;
 
 int sumevens = 0;
 int odds = 1;
-int sumodds =0;
+int sumodds = 0;
 
 int main() {
 
   for (int evens = 0; evens <= 100; evens = evens + 2) {
     sumevens = sumevens + evens;
   }
-  cout << "The sum of every even number from 0 t0 100 is " << sumevens << endl << endl;
+  cout << "The sum of every even number from 0 to 100 is " << sumevens << endl << endl;
 
   while (odds < 100) {
     sumodds = sumodds + odds;
